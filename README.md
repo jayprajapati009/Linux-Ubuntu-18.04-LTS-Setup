@@ -5,6 +5,9 @@ Basic setup for Linux Ubuntu 18.04 LTS (Recommended For ROS)
 ```
 sudo apt-get update
 ```
+Entering this command you'll be prompted to enter your password in the same terminal
+Take a note that while typing no character or '\*' will be displayed, as this is a password
+Simply type your password and press '**Enter Key**'
  
 ### To Upgrade Linux
 ```
@@ -17,6 +20,7 @@ While upgrade command you'll be asked to installing the packages, Simply pyress 
 sudo apt-get update && sudo get-apt upgrade
 ```
 
+### Additional Setting
 Go to Software and Updates 
 and change the setting as per the Video 
 
