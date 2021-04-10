@@ -1,6 +1,8 @@
 # Linux-Ubuntu-18.04-LTS-Setup
 Basic setup for Linux Ubuntu 18.04 LTS (Recommended For ROS)
 
+These are some suggested changes one should do while starting using Linux Ubuntu 18.04 especailly for ROS.
+
 ### To Update Linux
 ```
 sudo apt-get update
