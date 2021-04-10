@@ -117,17 +117,17 @@ The value should be 10
 ### To improve overall performance of Linux System
 
 Open **_Disc_** App,
-![image](https://user-images.githubusercontent.com/60093076/114265662-c0841280-9a0f-11eb-885b-0371df453ea8.png = 30*40)
+![image](https://user-images.githubusercontent.com/60093076/114265662-c0841280-9a0f-11eb-885b-0371df453ea8.png = 40*50)
 
 Select Hard Drive in which you have set up linux and Select the **_Linux Partition_**
-![image](https://user-images.githubusercontent.com/60093076/114265677-ddb8e100-9a0f-11eb-80bb-5d2932cca507.png = 30*40) 
+![image](https://user-images.githubusercontent.com/60093076/114265677-ddb8e100-9a0f-11eb-80bb-5d2932cca507.png = 40*50) 
 
 Go to **_Menu_** (Right Top)and Go to **_Drive Setting (ctrl + E)_**
-![image](https://user-images.githubusercontent.com/60093076/114265763-4607c280-9a10-11eb-97ea-e3450e17141f.png = 30*40)
+![image](https://user-images.githubusercontent.com/60093076/114265763-4607c280-9a10-11eb-97ea-e3450e17141f.png = 40*50)
 
 Go to **_Write Cache_**
 Enable It 
-![image](https://user-images.githubusercontent.com/60093076/114265786-6172cd80-9a10-11eb-9648-d6a18eeb74f5.png = 30*40)
+![image](https://user-images.githubusercontent.com/60093076/114265786-6172cd80-9a10-11eb-9648-d6a18eeb74f5.png = 40*50)
 and Close the dailougebox.
 
 ### To Install Some Linux Packages
