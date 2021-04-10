@@ -5,8 +5,8 @@ Basic setup for Linux Ubuntu 18.04 LTS (Recommended For ROS)
 ```
 sudo apt-get update
 ```
-Entering this command you'll be prompted to enter your password in the same terminal
-Take a note that while typing no character or '\*' will be displayed, as this is a password
+Entering this command you'll be prompted to enter your password in the same terminal.
+Take a note that while typing no character or '\*' will be displayed, as this is a password.
 Simply type your password and press '**Enter Key**'
  
 ### To Upgrade Linux
@@ -21,10 +21,14 @@ sudo apt-get update && sudo get-apt upgrade
 ```
 
 ### Additional Setting
-Go to Software and Updates 
-and change the setting as per the Video 
+####Go to Software and Updates 
 
-Go to App Updater
+![image](https://user-images.githubusercontent.com/60093076/114265099-93823080-9a0c-11eb-8662-58a47b86908b.png)
+![image](https://user-images.githubusercontent.com/60093076/114265127-b6ace000-9a0c-11eb-94ee-ada4af14b0bb.png)
+
+Change the settings as per the images and close the dailougebox.
+
+####Go to ***Software Updater***
 Update
 Restart
 
