@@ -4,23 +4,22 @@ Basic setup for Linux Ubuntu 18.04 LTS (Recommended For ROS)
 These are some suggested changes one should do while starting using Linux Ubuntu 18.04 especailly for ROS.
 
 ### To Update Linux
-```
+```sh
 sudo apt-get update
 ```
 Entering this command you'll be prompted to enter your password in the same terminal.
 
-Take a note that while typing no character or '\*' will be displayed, as this is a password.
-
+> Note: While typing `No character or *` will be displayed, as this is a password. 
 Simply type your password and press '**Enter Key**'
  
 ### To Upgrade Linux
-```
+```sh
 sudo get-apt upgrade
 ```
 While upgrade command you'll be asked to installing the packages, Simply pyress '**y**' and press '**Enter key**'
 
 #### You can also run boths the commands at the same time 
-```
+```sh
 sudo apt-get update && sudo get-apt upgrade
 ```
 
@@ -39,7 +38,7 @@ Update and Restart the system.
 
 ### Minimize in Dock
 If you click on the icon of any application in the dock, it will not minimize, to fix this 
-```
+```sh
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 ```
 
@@ -56,32 +55,32 @@ Select the Recommended Drivers by ( ubuntu-drivers devices ) and Apply Changes
 
 #### Open Synaptic Package Manager
 Search for, 
-```
+```sh
 openjdk-8-jre
 ```
 Click on it and select **_Mark For Installation_**.
 
 Search for,
-```
+```sh
 ttf-mscorefonts-installer
 ```
 Click on it and select **_Mark For Installation_**.
 
 Search for,
-```
+```sh
 ubuntu-restricted-extras
 ```
 Click on it and select **_Mark For Installation_**.
 
 Search for,
-```
+```sh
 apt-xapian-index
 ```
 
 Click on it and select **_Mark For Installation_**.
 
 Search for,
-```
+```sh
 microcode
 ```
 Click on it and select **_Mark For Installation_** for **_Intel_** and **_AMD Microcode_**.
@@ -89,7 +88,7 @@ Click on it and select **_Mark For Installation_** for **_Intel_** and **_AMD Mi
 Click on apply and Close. 
 
 #### Alternatively, To get the media codecs (Using CLI)
-```
+```sh
 sudo apt-get install ubuntu-restricted-extras
 ```
 
@@ -97,21 +96,21 @@ sudo apt-get install ubuntu-restricted-extras
 
 To reduce the usage of the disk and use the RAM first
 
-```
+```sh
 cat /proc/sys/vm/swappiness
 ```
-```
+```sh
 gedit admin:///etc/sysctl.conf
 ```
 Now, you'll be prompted to enter the password, after entering the password a file will be opened.
 Scroll down the file and at the end write,
-```
+```sh
 vm.swappiness = 10
 ```
 Save and Close the file and Reboot Your System 
 
 After rebooting open terminal and type,
-```
+```sh
 cat /proc/sys/vm/swappiness 
 ```
 The value should be 10
@@ -133,31 +132,31 @@ Enable It
 and Close the dailougebox.
 
 ### To Install Some Linux Packages
-```
+```sh
 sudo apt-get install libavcodec-dev libsdl1.2-dev xsltproc libbullet-dev libsdl1.2-dev libgoogle-glog-dev protobuf-compiler python-wstool
 ```
 
 ### To Set Up Git
-```
+```sh
 sudo apt-get install git
 ```
 
 ### To get Flatpak Supports 
 It enables the softwares which are not provided by Default App Store in Linux; Go to flathub website for more softwares and info
-```
+```sh
 sudo apt-get install flatpak
 ```
-```
+```sh
 sudo apt-get install gnome-software-plugin-flatpak
 ```
 
 ### To get the Flatpak softwares directly into the app store 
-```
+```sh
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
 ### For removing unnecessary files and Maintaining System
-```
+```sh
 sudo apt autoremove
 ```
 
@@ -166,17 +165,17 @@ sudo apt autoremove
 ## GNOME EXTENSIONS
 
 ### To install Gnome Tweaks
-```
+```sh
 sudo apt-get install gnome-tweaks
 ```
 
 ### To know version of GNOME Shell
-```
+```sh
 gnome-shell --version
 ````
 
 ### To install Gnome Extensions 
-```
+```sh
 sudo apt install gnome-shell-extensions
 ```
 
@@ -184,7 +183,7 @@ sudo apt install gnome-shell-extensions
 (https://extensions.gnome.org/)
 
 ### To get the Host Connector
-```
+```sh
 sudo apt install chrome-gnome-shell
 ```
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
