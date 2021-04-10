@@ -16,7 +16,7 @@ Simply type your password and press '**Enter Key**'
 ```sh
 sudo get-apt upgrade
 ```
-While upgrade command you'll be asked to installing the packages, Simply pyress '**y**' and press '**Enter key**'
+> While upgrade command you'll be asked to installing the packages, Simply pyress `'**y**' and press '**Enter key**'`
 
 #### You can also run boths the commands at the same time 
 ```sh
