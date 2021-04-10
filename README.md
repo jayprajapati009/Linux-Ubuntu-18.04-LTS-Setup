@@ -21,28 +21,32 @@ sudo apt-get update && sudo get-apt upgrade
 ```
 
 ### Additional Setting
-####Go to Software and Updates 
+#### Go to Software and Updates 
 
 ![image](https://user-images.githubusercontent.com/60093076/114265099-93823080-9a0c-11eb-8662-58a47b86908b.png)
 ![image](https://user-images.githubusercontent.com/60093076/114265127-b6ace000-9a0c-11eb-94ee-ada4af14b0bb.png)
 
 Change the settings as per the images and close the dailougebox.
 
-####Go to ***Software Updater***
-Update
-Restart
+#### Go to ***Software Updater***
+Update and Restart the system.
 
 --------------------------------------------------------------------------------------------------------------------------
 
+### Minimize in Dock
 If you click on the icon of any application in the dock, it will not minimize, to fix this 
+```
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+```
 
-Nvidia Drivers for Linux
-https://www.nvidia.com/Download/driverResults.aspx/111596/en-us
-Also Go to Software And Updates 
-Additional Drivers 
-Select the Recommended Drivers by ( ubuntu-drivers devices )
-Apply
+### Nvidia Drivers for Linux
+[Click Here for the Link](https://www.nvidia.com/Download/driverResults.aspx/111596/en-us)
+
+#### Alternatively, Go to **_Software And Updates_**, Go to **_Additional Drivers_**
+
+![image](https://user-images.githubusercontent.com/60093076/114265279-94679200-9a0d-11eb-9ccc-6f3653436ea8.png)
+
+Select the Recommended Drivers by ( ubuntu-drivers devices ) and Apply Changes
 
 Install Synaptic Package Manager
 Open Synaptic Package Manager
