@@ -48,79 +48,157 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
 Select the Recommended Drivers by ( ubuntu-drivers devices ) and Apply Changes
 
-Install Synaptic Package Manager
-Open Synaptic Package Manager
-Search for openjdk-8-jre
-search for ttf-mscorefonts-installer
-Serch for ubuntu-restricted-extras
-Mark For Installation
-Apply ---------- Close
+### Install Synaptic Package Manager
 
-To get the media codecs (Using CLI)
+#### Open Synaptic Package Manager
+Search for, 
+```
+openjdk-8-jre
+```
+Click on it and select **_Mark For Installation_**.
+
+Search for,
+```
+ttf-mscorefonts-installer
+```
+Click on it and select **_Mark For Installation_**.
+
+Search for,
+```
+ubuntu-restricted-extras
+```
+Click on it and select **_Mark For Installation_**.
+
+Search for,
+```
+apt-xapian-index
+```
+
+Click on it and select **_Mark For Installation_**.
+
+Search for,
+```
+microcode
+```
+Click on it and select **_Mark For Installation_** for **_Intel_** and **_AMD Microcode_**.
+
+Click on apply and Close. 
+
+#### Alternatively, To get the media codecs (Using CLI)
+```
 sudo apt-get install ubuntu-restricted-extras
+```
 
-Open Synaptic Package Manager
-Search for apt-xapian-index
-Mark For Installation
-Apply ---------- Close
+### To Reduce Swappiness
 
-Open Synaptic Package Manager
-Search for microcode
-Mark For Installation for Intel and AMD Microcode
-Apply ---------- Close
+To reduce the usage of the disk and use the RAM first
 
-To Reduce Swappiness
+```
 cat /proc/sys/vm/swappiness
+```
+```
 gedit admin:///etc/sysctl.conf
-enter the password
+```
+Now, you'll be prompted to enter the password, after entering the password a file will be opened.
 Scroll down the file and at the end write,
+```
 vm.swappiness = 10
-save and close the file 
-Reboot 
+```
+Save and Close the file and Reboot Your System 
+
+After rebooting open terminal and type,
+```
 cat /proc/sys/vm/swappiness 
-(Should be 10)
+```
+The value should be 10
 
-Open Disc
-Select Hard Drive 
-Select the Linux Partition 
-Go to menu (Right Top)
-Go to Drive Setting (ctrl + E)
-Go to Write Cache
+### To improve overall performance of Linux System
+
+Open **_Disc_** App,
+![image](https://user-images.githubusercontent.com/60093076/114265662-c0841280-9a0f-11eb-885b-0371df453ea8.png)
+
+Select Hard Drive in which you have set up linux and Select the **_Linux Partition_**
+![image](https://user-images.githubusercontent.com/60093076/114265677-ddb8e100-9a0f-11eb-80bb-5d2932cca507.png) 
+
+Go to **_Menu_** (Right Top)and Go to **_Drive Setting (ctrl + E)_**
+![image](https://user-images.githubusercontent.com/60093076/114265763-4607c280-9a10-11eb-97ea-e3450e17141f.png)
+
+Go to **_Write Cache_**
 Enable It 
+![image](https://user-images.githubusercontent.com/60093076/114265786-6172cd80-9a10-11eb-9648-d6a18eeb74f5.png)
+and Close the dailougebox.
 
-To Install Some Linux Packages
+### To Install Some Linux Packages
+```
 sudo apt-get install libavcodec-dev libsdl1.2-dev xsltproc libbullet-dev libsdl1.2-dev libgoogle-glog-dev protobuf-compiler python-wstool
+```
 
-To Set Up Git
+### To Set Up Git
+```
 sudo apt-get install git
+```
 
-To get Flatpak Supports (It enables the softwares which are not provided by Default App Store in Linux; Go to flathub website for more softwares and info)
+### To get Flatpak Supports 
+It enables the softwares which are not provided by Default App Store in Linux; Go to flathub website for more softwares and info
+```
 sudo apt-get install flatpak
+```
+```
 sudo apt-get install gnome-software-plugin-flatpak
+```
 
-To get the Flatpak softwares directly into the app store 
+### To get the Flatpak softwares directly into the app store 
+```
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
 
-For removing unnecessary files and Maintaining System
+### For removing unnecessary files and Maintaining System
+```
 sudo apt autoremove
+```
 
 --------------------------------------------------------------------------------------------------------------------------
 
-GNOME EXTENSIONS
+## GNOME EXTENSIONS
 
-To install Gnome Tweaks
+### To install Gnome Tweaks
+```
 sudo apt-get install gnome-tweaks
+```
 
-To know version of GNOME Shell
+### To know version of GNOME Shell
+```
 gnome-shell --version
+````
 
-To install Gnome extensions 
+### To install Gnome Extensions 
+```
 sudo apt install gnome-shell-extensions
+```
 
-GNOME extensions Website
-https://extensions.gnome.org/
+#### GNOME Extensions Website
+(https://extensions.gnome.org/)
 
-To get the host connector
+### To get the Host Connector
+```
 sudo apt install chrome-gnome-shell
+```
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## References
 
+(1) https://averagelinuxuser.com/30-things-to-do-after-installing-ubuntu-18-04-lts/#1-configure-the-update-manager-and-repositories
+
+(2) https://itsfoss.com/things-to-do-after-installing-ubuntu-18-04/
+
+(3) https://www.youtube.com/watch?v=BLVtxpm5c2A
+
+(4) https://www.youtube.com/watch?v=ynA_zv2eRzE 
+
+(5) https://www.youtube.com/watch?v=CPDDBVeIyLw
+
+(6) https://github.com/PranshuTople/Tools-For-ROS
+
+(7) https://www.youtube.com/watch?v=g25yTWiuUcg
+
+(8) https://itsfoss.com/gnome-shell-extensions/
