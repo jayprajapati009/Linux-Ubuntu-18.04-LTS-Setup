@@ -117,7 +117,7 @@ The value should be 10
 ### To improve overall performance of Linux System
 
 Open **_Disc_** App,
-![image](https://user-images.githubusercontent.com/60093076/114265662-c0841280-9a0f-11eb-885b-0371df453ea8.png)
+![image](https://user-images.githubusercontent.com/60093076/114265662-c0841280-9a0f-11eb-885b-0371df453ea8.png = 50*60)
 
 Select Hard Drive in which you have set up linux and Select the **_Linux Partition_**
 ![image](https://user-images.githubusercontent.com/60093076/114265677-ddb8e100-9a0f-11eb-80bb-5d2932cca507.png) 
