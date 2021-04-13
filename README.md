@@ -159,12 +159,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 sudo apt autoremove
 ```
 
-### Install Gazebo
-For Ubuntu 18.04 LTS and ROS Melodic, **_Gazebo 9_** will be the most suitable version to use 
-```
-sudo apt-get install gazebo9 libgazebo9-*
-```
-
 --------------------------------------------------------------------------------------------------------------------------
 
 ## GNOME EXTENSIONS
