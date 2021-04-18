@@ -163,7 +163,7 @@ sudo apt autoremove
 ```
 
 ### Install Terminator
-Terminator is a software which will be best suitable for managing multiple Treminal windows while using ROS 
+Terminator is a software which will be best suitable for managing multiple terminal windows while using ROS 
 ```
 sudo add-apt-repository ppa:gnome-terminator
 ```
