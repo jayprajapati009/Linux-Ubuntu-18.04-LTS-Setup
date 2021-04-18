@@ -51,6 +51,9 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 Select the Recommended Drivers by ( ubuntu-drivers devices ) and Apply Changes
 
 ### Install Synaptic Package Manager
+Open **Ubuntu Software Store** and download **Synaptic Package Manager**
+![image](https://user-images.githubusercontent.com/60093076/115148959-645c6680-a07f-11eb-8306-e51f6bc77409.png)
+
 
 #### Open Synaptic Package Manager
 Search for, 
