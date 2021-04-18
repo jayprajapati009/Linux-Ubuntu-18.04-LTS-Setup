@@ -162,6 +162,15 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 sudo apt autoremove
 ```
 
+### Install Terminator
+Terminator is a software which will be best suitable for managing multiple Treminal windows while using ROS 
+```
+sudo add-apt-repository ppa:gnome-terminator
+```
+```
+sudo apt-get install terminator
+```
+
 --------------------------------------------------------------------------------------------------------------------------
 
 ## GNOME EXTENSIONS
