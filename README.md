@@ -181,18 +181,15 @@ gnome-shell --version
 sudo apt install gnome-shell-extensions
 ```
 
-### To Install Google Chrome extension for Gnome Extensions
-```
-sudo apt-get install chrome-gnome-shell
+### To get the Host Connector
+```sh
+sudo apt install chrome-gnome-shell
 ```
 
 #### GNOME Extensions Website
 (https://extensions.gnome.org/)
 
-### To get the Host Connector
-```sh
-sudo apt install chrome-gnome-shell
-```
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## References
