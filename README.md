@@ -41,6 +41,13 @@ If you click on the icon of any application in the dock, it will not minimize, t
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 ```
 
+### New Document/File Option
+To get a 'New Document' option in the Right Click Menu  
+```sh
+touch `xdg-user-dir TEMPLATES`/Empty\ Text\ File.txt
+```
+
+
 ### Nvidia Drivers for Linux
 [Click Here for the Link](https://www.nvidia.com/Download/driverResults.aspx/111596/en-us)
 
